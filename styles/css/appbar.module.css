@@ -1,0 +1,7 @@
+.appbar {
+    width: 100%;
+    font-size: 25px;
+    background-color: rgb(0, 0, 124);
+    color: white;
+    padding: 5px;
+}

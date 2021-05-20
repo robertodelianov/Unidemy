@@ -1,0 +1,15 @@
+.preview-button {
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 50px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.preview-button:hover {
+    box-shadow: 5px 10px rgba(255, 217, 0, 0.513);
+    font-style: italic;
+}

@@ -1,0 +1,25 @@
+.main-button {
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(243, 59, 105);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.main-button:hover {
+    opacity: 1;
+    animation-name: mainButton;
+    animation-duration: 2s;
+}
+
+@keyframes mainButton {
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
